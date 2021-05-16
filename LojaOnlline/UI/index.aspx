@@ -17,10 +17,10 @@
                         <asp:HyperLink ID="HyperLinkInicial" NavigateUrl="~/UI/index.aspx" Text="Inicial" runat="server" class="nav-link"></asp:HyperLink>
                     </li>
                     <li class="nav-item">
-                        <asp:HyperLink ID="HyperLinkProdutos" NavigateUrl="~/UI/formTableProdutos.aspx" Text="Produtos" runat="server" class="nav-link"></asp:HyperLink>
+                        <asp:HyperLink ID="HyperLinkLogin" NavigateUrl="~/UI/formLogin.aspx" Text="Login" runat="server" class="nav-link"></asp:HyperLink>
                     </li>
                     <li class="nav-item">
-                        <asp:HyperLink ID="HyperLinkLogin" NavigateUrl="~/UI/formLogin.aspx" Text="Login" runat="server" class="nav-link"></asp:HyperLink>
+                        <asp:HyperLink ID="HyperLinkLogin" NavigateUrl="~/UI/products.aspx" Text="Produtos" runat="server" class="nav-link"></asp:HyperLink>
                     </li>
                 </ul>
         </div>
