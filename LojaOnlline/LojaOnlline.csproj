@@ -70,6 +70,7 @@
   <ItemGroup>
     <Content Include="UI\formLogin.aspx" />
     <Content Include="UI\index.aspx" />
+    <Content Include="UI\products.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +93,13 @@
     </Compile>
     <Compile Include="UI\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\products.aspx.cs">
+      <DependentUpon>products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\products.aspx.designer.cs">
+      <DependentUpon>products.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

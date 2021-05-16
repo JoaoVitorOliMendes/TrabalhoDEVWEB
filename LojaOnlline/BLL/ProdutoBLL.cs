@@ -46,6 +46,14 @@ namespace LojaOnlline.BLL
 
             return con.Executarconsulta(sql);
         }
-       
+
+        public DataTable selectAll()
+        {
+
+            string sql = string.Format($@"SELECT * FROM produto;");
+
+            return con.Executarconsulta(sql);
+        }
+
     }
 }
